@@ -328,7 +328,7 @@ def calculate_phi(MPhi):
             checkIter = True
             print('results have not converged in the maximum ammount of iterations allowed')
     print ('Iterations have ended. Finished in ', n ,' itterations')
-    return (MPhi)
+    return (MPhi, rho0, rhoS, E)
 
 
 
@@ -473,7 +473,7 @@ tol = 1E-10
 minIter = 1
 maxIter = 10
 
-phi = calculate_phi(phi)
+(phi, rho0, rhoS, E) = calculate_phi(phi)
 
 file1 = File("phi-changing.pvd")
 file1 << phi
