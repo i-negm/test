@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 # Functions
 #
 
-def calculate_phi(MPhi, MEpsi):
+def calculate_phi(MPhi):
     epsi = Constant(c.epsilon_0)        
     checkIter=False
     n = 0

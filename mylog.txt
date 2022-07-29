@@ -1,0 +1,79 @@
+pghuber@Simul-4:/mnt/d/Users/pg.huber/Desktop/PG Huber 2022/test$ /bin/python3 "/mnt/d/Users/pg.huber/Desktop/PG Huber 2022/test/PG_1_Subtask2.py"
+PG 0.2.7.C
+Generating: Mesh
+Index of the Vertex with the min Distance:  4
+Distance to the Conductor center:  0.0009999999999999601
+Coordinates of the Vertex with min Distance:  0.5003090169943749 0.5509510565162952
+Calculating solution for Laplace Equation
+using Neumann Border Conditions
+Part: Laplace Equation = Start
+Ec =  6119342.709928769
+Solving linear variational problem.
+Laplace
+1 iteration of steps 2, 3, 4
+minimal Value =  -48821.42146355718
+step 2 finished
+rho0 calculated
+Solving nonlinear variational problem.
+  Newton iteration 0: r (abs) = 5.351e-02 (tol = 1.000e-10) r (rel) = 1.000e+00 (tol = 1.000e-09)
+  Newton iteration 1: r (abs) = 1.315e-02 (tol = 1.000e-10) r (rel) = 2.458e-01 (tol = 1.000e-09)
+  Newton iteration 2: r (abs) = 3.174e-03 (tol = 1.000e-10) r (rel) = 5.932e-02 (tol = 1.000e-09)
+  Newton iteration 3: r (abs) = 7.341e-04 (tol = 1.000e-10) r (rel) = 1.372e-02 (tol = 1.000e-09)
+  Newton iteration 4: r (abs) = 1.563e-04 (tol = 1.000e-10) r (rel) = 2.921e-03 (tol = 1.000e-09)
+  Newton iteration 5: r (abs) = 3.172e-05 (tol = 1.000e-10) r (rel) = 5.927e-04 (tol = 1.000e-09)
+  Newton iteration 6: r (abs) = 6.152e-06 (tol = 1.000e-10) r (rel) = 1.150e-04 (tol = 1.000e-09)
+  Newton iteration 7: r (abs) = 1.054e-06 (tol = 1.000e-10) r (rel) = 1.969e-05 (tol = 1.000e-09)
+  Newton iteration 8: r (abs) = 1.364e-07 (tol = 1.000e-10) r (rel) = 2.550e-06 (tol = 1.000e-09)
+  Newton iteration 9: r (abs) = 9.285e-09 (tol = 1.000e-10) r (rel) = 1.735e-07 (tol = 1.000e-09)
+  Newton iteration 10: r (abs) = 1.341e-10 (tol = 1.000e-10) r (rel) = 2.506e-09 (tol = 1.000e-09)
+  Newton iteration 11: r (abs) = 6.785e-14 (tol = 1.000e-10) r (rel) = 1.268e-12 (tol = 1.000e-09)
+  Newton solver finished in 11 iterations and 11 linear solver iterations.
+calculated rho
+Solving linear variational problem.
+calculated MPhi
+finished itteration  1
+2 iteration of steps 2, 3, 4
+minimal Value =  -48821.63109807656
+step 2 finished
+rho0 calculated
+Solving nonlinear variational problem.
+  Newton iteration 0: r (abs) = 5.351e-02 (tol = 1.000e-10) r (rel) = 1.000e+00 (tol = 1.000e-09)
+  Newton iteration 1: r (abs) = 1.315e-02 (tol = 1.000e-10) r (rel) = 2.458e-01 (tol = 1.000e-09)
+  Newton iteration 2: r (abs) = 3.174e-03 (tol = 1.000e-10) r (rel) = 5.932e-02 (tol = 1.000e-09)
+  Newton iteration 3: r (abs) = 7.341e-04 (tol = 1.000e-10) r (rel) = 1.372e-02 (tol = 1.000e-09)
+  Newton iteration 4: r (abs) = 1.563e-04 (tol = 1.000e-10) r (rel) = 2.921e-03 (tol = 1.000e-09)
+  Newton iteration 5: r (abs) = 3.172e-05 (tol = 1.000e-10) r (rel) = 5.927e-04 (tol = 1.000e-09)
+  Newton iteration 6: r (abs) = 6.152e-06 (tol = 1.000e-10) r (rel) = 1.150e-04 (tol = 1.000e-09)
+  Newton iteration 7: r (abs) = 1.054e-06 (tol = 1.000e-10) r (rel) = 1.969e-05 (tol = 1.000e-09)
+  Newton iteration 8: r (abs) = 1.364e-07 (tol = 1.000e-10) r (rel) = 2.550e-06 (tol = 1.000e-09)
+  Newton iteration 9: r (abs) = 9.285e-09 (tol = 1.000e-10) r (rel) = 1.735e-07 (tol = 1.000e-09)
+  Newton iteration 10: r (abs) = 1.341e-10 (tol = 1.000e-10) r (rel) = 2.506e-09 (tol = 1.000e-09)
+  Newton iteration 11: r (abs) = 6.785e-14 (tol = 1.000e-10) r (rel) = 1.268e-12 (tol = 1.000e-09)
+  Newton solver finished in 11 iterations and 11 linear solver iterations.
+calculated rho
+Solving linear variational problem.
+calculated MPhi
+finished itteration  2
+3 iteration of steps 2, 3, 4
+minimal Value =  -48821.631098743
+step 2 finished
+rho0 calculated
+Solving nonlinear variational problem.
+  Newton iteration 0: r (abs) = 5.351e-02 (tol = 1.000e-10) r (rel) = 1.000e+00 (tol = 1.000e-09)
+  Newton iteration 1: r (abs) = 1.315e-02 (tol = 1.000e-10) r (rel) = 2.458e-01 (tol = 1.000e-09)
+  Newton iteration 2: r (abs) = 3.174e-03 (tol = 1.000e-10) r (rel) = 5.932e-02 (tol = 1.000e-09)
+  Newton iteration 3: r (abs) = 7.341e-04 (tol = 1.000e-10) r (rel) = 1.372e-02 (tol = 1.000e-09)
+  Newton iteration 4: r (abs) = 1.563e-04 (tol = 1.000e-10) r (rel) = 2.921e-03 (tol = 1.000e-09)
+  Newton iteration 5: r (abs) = 3.172e-05 (tol = 1.000e-10) r (rel) = 5.927e-04 (tol = 1.000e-09)
+  Newton iteration 6: r (abs) = 6.152e-06 (tol = 1.000e-10) r (rel) = 1.150e-04 (tol = 1.000e-09)
+  Newton iteration 7: r (abs) = 1.054e-06 (tol = 1.000e-10) r (rel) = 1.969e-05 (tol = 1.000e-09)
+  Newton iteration 8: r (abs) = 1.364e-07 (tol = 1.000e-10) r (rel) = 2.550e-06 (tol = 1.000e-09)
+  Newton iteration 9: r (abs) = 9.285e-09 (tol = 1.000e-10) r (rel) = 1.735e-07 (tol = 1.000e-09)
+  Newton iteration 10: r (abs) = 1.341e-10 (tol = 1.000e-10) r (rel) = 2.506e-09 (tol = 1.000e-09)
+  Newton iteration 11: r (abs) = 6.785e-14 (tol = 1.000e-10) r (rel) = 1.268e-12 (tol = 1.000e-09)
+  Newton solver finished in 11 iterations and 11 linear solver iterations.
+calculated rho
+Solving linear variational problem.
+calculated MPhi
+finished itteration  3
+Iterations have ended. Finished in  3  itterations
