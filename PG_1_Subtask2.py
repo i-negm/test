@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 # Functions
 #
 
-def calculate_phi(MPhi):
+def calculate_phi(MPhi, rhoS):
     epsi = Constant(c.epsilon_0)        
     checkIter=False
     n = 0
@@ -247,10 +247,11 @@ def calculate_phi(MPhi):
         print ('rho0 calculated')
         #################################################################
         # calculating rho_Space
-        rhoS=TrialFunction(Q)
+        if (rhoS == None):
+            rhoS=TrialFunction(Q)
+            rhoS=Function(Q)
         u=TestFunction(Q)
 
-        rhoS=Function(Q)
 
         h = Constant(0)
         i = Constant(0)
@@ -473,7 +474,30 @@ tol = 1E-10
 minIter = 1
 maxIter = 10
 
-(phi, rho0, rhoS, E) = calculate_phi(phi)
+rho0 = None
+rhoS = None
+E = 0
+
+RHO_CAHNGE_RATE = 1
+
+while ((E-E0_Ec)/E0_Ec != tol):
+    print("Calculate phi...")
+    (phi, rho0, rhoS, E) = calculate_phi(phi, rhoS)
+    print("Calculate phi, results:")
+    print("phi = ", phi)
+    print("rhoS = ", rhoS)
+    print("Ec = ", E0_Ec)
+    print("E = ", E)
+    print("type of E = ", type(E))
+
+
+    # Update rhoS
+    if (lt(E,E0_Ec)):
+        rhoS = rhoS - RHO_CAHNGE_RATE
+    else:
+        rhoS = rhoS + RHO_CAHNGE_RATE
+
+
 
 file1 = File("phi-changing.pvd")
 file1 << phi
